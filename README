@@ -1,0 +1,11 @@
+Ejercicios propuestos:
+
+ 1. Un programa en C que muestre la reproducción de un vídeo por pantalla (puede ser uno fijo o pasado 
+por parámetro, es indiferente)
+ 2. Partiendo del programa anterior, hacer que muestre la hora actual sobre el vídeo
+ 3. Partiendo del programa anterior hacer que cambie los colores del vídeo para mostrarlo en tonalidades sepia, 
+como pista: existe un elemento llamado coloreffects que te puede ayudar.
+ 4. Hacer un programa en C que tome un vídeo y lo transcodifique a mp4 con codec h264 (solo la parte de vídeo, podemos 
+ignorar el audio si el vídeo lo tiene)
+
+
