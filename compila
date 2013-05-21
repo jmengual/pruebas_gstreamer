@@ -1,0 +1,11 @@
+#!/bin/sh
+# script para compilar programas en gstreamer-1.0 
+# 
+
+if [ $# != 1 ]; then
+  echo "Requiere 1 argumento. Nombre del archivo fuente sin la extension (.c)" 
+  exit 1
+fi
+
+gcc -Wall $1.c -o $1 $(pkg-config --cflags --libs gstreamer-1.0)
+
